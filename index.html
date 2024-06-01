@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App | Abishek</title>
+    <link rel="icon" type="image/x-icon" href="images.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Weather Dashboard</h1>
+    <div class="main">
+      <div class="data">
+        <form>
+          <h3>Enter City Name</h3>
+          <input type="text" id="cityName" placeholder="E.g., New York, London, Mumbai" name="cityName">
+          <input type="submit" class="search-btn" value="Search"/>
+          <div class="separator"></div>
+        </form>
+        <button class="location-btn">Use Current Location</button>
+      </div>
+      <div class="weather-data">
+        <div class="today-weather">
+          <div class="details">
+            <h2 class="todayTemp">_________ ( __ °C )</h2>
+            <h6 class="todayDescription">Description: __</h6>
+            <h6 class="todayWind">Wind: __ M/S</h6>
+            <h6 class="todayWindDegree">Wind Degree: __ °</h6>
+            <h6 class="todayHumidity">Humidity: __ %</h6>
+          </div>
+          <div class="icon">
+            <!-- <img src="https://openweathermap.org/img/wn/50d@2x.png" alt="Weather Icon"> -->
+          </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
